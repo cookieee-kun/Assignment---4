@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+    }
+</style>
+<body>
+   <h1>ASSIGNMENT-4</h1><br><br>
+   <h2>Question-6</h2><br>
+   <h3>Piyush Ratan</h3>
+   <h3>Submitted by : 2021kucp1127/h3>
+   <script>
+    console.log("Question 6");
+    let y = prompt("Enter a number to reverse"); 
+    var yy = y;
+    var result = 0;
+    var m = 10 ** (y.length - 1); 
+    while(y != 0)
+    {
+        result += m * (y % 10); 
+        y = (y - (y % 10)) / 10;
+        m /= 10;
+    }
+    console.log("Reverse of " + yy + " = " + result);
+   </script> 
+</body>
+</html>

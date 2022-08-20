@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+    }
+</style>
+<body>
+   <h1>ASSIGNMENT-4</h1><br><br>
+   <h2>Question-5</h2><br>
+   <h3>Piyush Ratan</h3>
+   <h3>Submitted by : 2021kucp1127/h3>
+   <script>
+    console.log("Question 5");
+    let x = prompt("Enter a number to calculate sum of its digits"); 
+    var xx = x;
+    var sum = 0; 
+    while(x != 0)
+    {
+        sum += x % 10;
+        x = (x - (x % 10)) / 10;
+    }
+    console.log("Sum of all digits in " + xx + " = " + sum);
+   </script> 
+</body>
+</html>
